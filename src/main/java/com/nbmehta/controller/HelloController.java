@@ -13,7 +13,7 @@ public class HelloController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 
-		model.addAttribute("student", "welcome 123456");
+		model.addAttribute("student", "welcome 123456789");
 		return "hello";
 
 	}
